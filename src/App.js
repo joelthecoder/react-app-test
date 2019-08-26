@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import GravatarHook from './GravatarHook';
 import GravatarLifecycle from './GravatarLifecycle';
+import GithubTrending from './GithubTrending';
 import './App.css';
 
 function App() {
@@ -12,6 +13,8 @@ function App() {
 
         <GravatarHook />
         <GravatarLifecycle />
+
+        <GithubTrending since="weekly" />
       </header>
     </div>
   );
